@@ -66,15 +66,24 @@ const Task: React.FC<TaskProps> = ({
       <button
         className={styles.editButton}
         onClick={handleEditMode}
+        title={editMode ? 'Salvar' : 'Editar tarefa'}
         >
         {editMode ? <Check fontSize={20} /> : <PencilSimple fontSize={20} /> }
       </button>
 
-      <button className={styles.copyButton} onClick={handleDuplicateTask}>
+      <button
+        className={styles.copyButton}
+        onClick={handleDuplicateTask}
+        title="Duplicar tarefa"
+      >
         <Copy fontSize={20} />
       </button>
 
-      <button className={styles.deleteButton} onClick={handleDeleteTask}>
+      <button
+        className={styles.deleteButton}
+        onClick={handleDeleteTask}
+        title="Excluir tarefa"
+      >
         <Trash fontSize={20} />
       </button>
     </div>
