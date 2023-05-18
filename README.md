@@ -1,6 +1,10 @@
 <img id="cover" align="center" src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-cover.png?updatedAt=1684373958920" alt="todo" />
 
-<h1 id="title" align="center">todo</h1>
+<h1 id="title" align="center">
+  <a href="https://todo-plum-zeta.vercel.app/">
+    todo
+  </a>
+</h1>
 
 <div align="center">
   <a href="#description">Description</a> |
@@ -18,6 +22,14 @@
 </p>
 
 <h2 id="preview">📽️ Preview</h2>
+
+<p>
+  Below you can see a brief preview of application in gif. If yout want to test
+  by yourself, it's available
+  <a href="https://todo-plum-zeta.vercel.app/">
+    here
+  </a>.
+</p>
 
 <p>Working on it...</p>
 <!-- <img src="" alt="todo" /> -->
