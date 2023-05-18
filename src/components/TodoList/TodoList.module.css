@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  margin-top: 6.6875rem;
+}
+
+.todoHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.created {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.done {
+  color: var(--purple-dark);
+  font-weight: 700;
+}
+
+.totalsNumber {
+  padding: 0.125rem 0.5rem;
+  border-radius: 999px;
+  color: var(--grey-200);
+  background: var(--grey-400);
+}
+
+.tasksContainer {
+  position: relative;
+  max-height: 32rem;
+  overflow-y: auto;
+  margin-top: 1.5rem;
+  padding-right: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background: var(--grey-400);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--grey-300);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--grey-200);
+}
+
+@media (max-width: 400px) {
+  .created, .done {
+    flex-direction: column;
+  }
+}

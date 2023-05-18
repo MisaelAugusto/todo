@@ -1,0 +1,119 @@
+.container {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--grey-100);
+  display: flex;
+  gap: 0.75rem;
+  text-align: justify;
+  justify-content: space-between;
+  background-color: var(--grey-500);
+  animation: ease-out zoomIn 0.1s;
+}
+
+@keyframes zoomIn {
+  from {
+    scale: 0
+  }
+
+  to {
+    scale: 1
+  }
+}
+
+.container + .container {
+  margin-top: 0.75rem;
+}
+
+.container > p {
+  flex: 1;
+}
+
+.checkbox {
+  appearance: none;
+}
+
+.checkbox {
+  position: absolute;
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--blue);
+  transition: background-color 0.5s;
+}
+
+.checkbox:hover {
+  background-color: rgba(78, 168, 222, 0.5);
+}
+
+.checkbox:focus {
+  box-shadow: none;
+}
+
+.checkbox:checked {
+  border: 1px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checkboxContainer > svg {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.checkbox:checked + svg {
+  opacity: 1;
+  color: var(--grey-100);
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-75%, -70%);
+}
+
+.checkboxContainer .checkbox:checked + p {
+  color: var(--grey-300);
+  text-decoration: line-through;
+}
+
+.editButton, .copyButton, .deleteButton  {
+  border: 0;
+  background: none;
+  color: var(--grey-100);
+  transition: color 0.5s;
+}
+
+.editButton:hover {
+  color: var(--blue);
+}
+
+.copyButton:hover {
+  color: var(--blue);
+}
+
+.deleteButton:hover {
+  color: var(--red);
+}
+
+.editInput {
+  flex: 1;
+  border: 0;
+  padding: 0.25rem;
+  border-radius: 4px;
+  color: var(--grey-300);
+  border: 1px solid var(--purple-dark);
+  background: var(--grey-500);
+}
+
+@media (max-width: 540px) {
+  .editInput {
+    width: 60%;
+  }
+}
