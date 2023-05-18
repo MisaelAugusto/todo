@@ -1,6 +1,14 @@
 {
-  "name": "challenge-1-practicing-reactjs-fundamentals",
+  "name": "todo",
   "private": true,
+  "author": "Misael Augusto Silva da Costa <misael.costa@ccc.ufcg.edu.br>",
+  "contributors": [
+    {
+      "name": "Misael Augusto Silva da Costa",
+      "email": "misael.costa@ccc.ufcg.edu.br"
+    }
+  ],
+  "license": "MIT",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
