@@ -1,5 +1,3 @@
-# todo
-
 <img id="cover" align="center" src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-cover.png?updatedAt=1684373958920" alt="todo" />
 
 <h1 id="title" align="center">todo</h1>
