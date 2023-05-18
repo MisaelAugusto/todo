@@ -1,6 +1,6 @@
 # todo
 
-<img id="cover" align="center" src="https://ik.imagekit.io/ocq8ayf2ug/todo/todo_jA05qwM8r.png?updatedAt=1684373893954" alt="todo" />
+<img id="cover" align="center" src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-cover.png?updatedAt=1684373958920" alt="todo" />
 
 <h1 id="title" align="center">todo</h1>
 
@@ -34,7 +34,7 @@
 <h2 id="feedback-support">💬️ Feedback and Support</h3>
 
 <p>
-  If you have any questions about the project, how to contribute or want to send me some feedback, feel free to contact me through my e-mail adress clicking <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=misael.costa@ccc.ufcg.edu.br&su=(Feedback or Support) for 'todo'&tf=1" target="_blank">here</a>.
+  If you have any questions about the project, how to contribute or want to send me some feedback, feel free to contact me through my e-mail adress clicking <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=misael.costa@ccc.ufcg.edu.br&su=(Feedback or Support) for 'todo'&tf=1">here</a>.
 </p>
 
 <h2 id="license">📜️ License</h2>
