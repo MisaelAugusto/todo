@@ -1,6 +1,6 @@
 <h1>Project Info</h1>
 
-[![Commitizen friendly](https://vercelbadge.vercel.app/api/misaelaugusto/todo?style=for-the-badge)]
+![Commitizen friendly](https://vercelbadge.vercel.app/api/misaelaugusto/todo?style=for-the-badge)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
 
 <img id="cover" align="center" src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-cover.png?updatedAt=1684373958920" alt="todo" />
