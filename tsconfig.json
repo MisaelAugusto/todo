@@ -6,8 +6,11 @@
     "skipLibCheck": true,
     "baseUrl": "./src",
     "paths": {
-      "components/*": ["components/*"]
+      "assets/*": ["assets/*"],
+      "components/*": ["components/*"],
+      "mocks/*": ["mocks/*"]
     },
+    "esModuleInterop": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
