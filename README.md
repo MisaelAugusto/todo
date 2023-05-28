@@ -16,7 +16,7 @@
   <a href="#description">Description</a> |
   <a href="#preview">Preview</a> |
   <a href="#technologies">Technologies</a> |
-  <a href="#info">Feedback and Support</a> |
+  <a href="#feedback-support">Feedback and Support</a> |
   <a href="#license">License</a>
 </div>
 
