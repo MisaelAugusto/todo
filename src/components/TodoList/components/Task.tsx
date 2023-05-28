@@ -1,5 +1,5 @@
 import { ChangeEvent, useCallback, useMemo, useState } from 'react';
-import { Trash, Check, Copy, PencilSimple } from "phosphor-react";
+import { Trash, Check, Copy, PencilSimple } from 'phosphor-react';
 
 import styles from './Task.module.css';
 
@@ -21,9 +21,10 @@ const Task: React.FC<TaskProps> = ({
   const [editMode, setEditMode] = useState(false);
   const [editedTaskDescription, setEditedTaskDescription] = useState(description);
 
-  const descriptionStyle = useMemo(() =>
-    done ? { textDecoration: 'line-through', color: 'var(--grey-300)' } : {}
-  , [done]);
+  const descriptionStyle = useMemo(
+    () => (done ? { textDecoration: 'line-through', color: 'var(--grey-300)' } : {}),
+    [done]
+  );
 
   const toggleEditMode = useCallback(() => {
     setEditMode((previousState) => !previousState);
@@ -46,6 +47,7 @@ const Task: React.FC<TaskProps> = ({
     <div className={styles.container}>
       <div className={styles.checkboxContainer}>
         <input
+          data-testid="task-checkbox"
           className={styles.checkbox}
           type="checkbox"
           onClick={toggleTaskDone}
@@ -54,36 +56,29 @@ const Task: React.FC<TaskProps> = ({
         <Check />
       </div>
 
-      {editMode ?
-        (<input
+      {editMode ? (
+        <input
           className={styles.editInput}
           value={editedTaskDescription}
           onChange={handleEditTaskDescription}
-        />)
-        : (<p style={descriptionStyle}>{description}</p>)
-      }
+        />
+      ) : (
+        <p style={descriptionStyle}>{description}</p>
+      )}
 
       <button
         className={styles.editButton}
         onClick={handleEditMode}
         title={editMode ? 'Salvar' : 'Editar tarefa'}
-        >
-        {editMode ? <Check fontSize={20} /> : <PencilSimple fontSize={20} /> }
+      >
+        {editMode ? <Check fontSize={20} /> : <PencilSimple fontSize={20} />}
       </button>
 
-      <button
-        className={styles.copyButton}
-        onClick={handleDuplicateTask}
-        title="Duplicar tarefa"
-      >
+      <button className={styles.copyButton} onClick={handleDuplicateTask} title="Duplicar tarefa">
         <Copy fontSize={20} />
       </button>
 
-      <button
-        className={styles.deleteButton}
-        onClick={handleDeleteTask}
-        title="Excluir tarefa"
-      >
+      <button className={styles.deleteButton} onClick={handleDeleteTask} title="Excluir tarefa">
         <Trash fontSize={20} />
       </button>
     </div>
