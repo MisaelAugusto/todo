@@ -37,9 +37,7 @@
   </a>.
 </p>
 
-<video controls="controls">
-  <source src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-preview?updatedAt=1695569121643" type="video/mp4" />
-</video>
+https://github.com/MisaelAugusto/todo/assets/30798460/91810c9b-fb0e-4c93-82e6-b18a3ca7371f
 
 <h2 id="technologies">💻️ Technologies</h2>
 
