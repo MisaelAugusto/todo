@@ -10,5 +10,5 @@ export default {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   coveragePathIgnorePatterns: ['src/main.tsx'],
   collectCoverageFrom: ['src/**/*.[jt]s?(x)', '!src/**/__tests__/*'],
-  coverageReporters: ['html', 'text', 'text-summary', 'cobertura']
+  coverageReporters: ['html', 'text', 'text-summary', 'cobertura', 'json-summary']
 };

@@ -3,6 +3,7 @@
 [![Main workflow](https://shields.io/github/actions/workflow/status/MisaelAugusto/todo/main.yml?branch=main&style=for-the-badge)](https://github.com/MisaelAugusto/todo/actions/workflows/main.yml)
 ![Vercel deploy](https://vercelbadge.vercel.app/api/misaelaugusto/todo?style=for-the-badge)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+[![Coverage](https://MisaelAugusto.github.io/todo/badges/coverage.svg?style=for-the-badge)](https://github.com/MisaelAugusto/todo/actions)
 
 <img id="cover" align="center" src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-cover.png?updatedAt=1684373958920" alt="todo" />
 
