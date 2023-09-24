@@ -37,8 +37,9 @@
   </a>.
 </p>
 
-<p>Working on it...</p>
-<!-- <img src="" alt="todo" /> -->
+<video controls="controls">
+  <source src="https://ik.imagekit.io/ocq8ayf2ug/todo/readme-preview?updatedAt=1695569121643" type="video/mp4" />
+</video>
 
 <h2 id="technologies">💻️ Technologies</h2>
 
